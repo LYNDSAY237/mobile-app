@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free bootstrap documentation template">
+    <title>Proacademy Documentation</title>
+    <!-- using online links -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css">
+    <!-- using local links -->
+    <!-- <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sidebar-themes.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> </head>
+
+<body>
+    <div class="page-wrapper toggled light-theme">
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <!-- sidebar-brand  -->
+                <div class="sidebar-item sidebar-brand text-white font-weight-bold">Proacademy</div>
+                <!-- sidebar-header  -->
+                <!-- sidebar-search  -->
+                <div class="sidebar-item sidebar-search">
+                    <div>
+                        <div class="input-group">
+                            <input type="text" class="form-control search-menu" placeholder="Search...">
+                            <div class="input-group-append"> <span class="input-group-text">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </span> </div>
+                        </div>
+                    </div>
+                </div>
+               <!-- sidebar-menu  -->
+               <div class=" sidebar-item sidebar-menu">
+                <ul>
+                    <li class="header-menu"> <span>Menu</span> </li>
+                    <li>
+                        <a href="index.html"> <i class="fa fa-play"></i> <span class="menu-text">introduction</span> </a>
+                    </li>
+                    <li>
+                        <a href="features.html"> <i class="fa fa-list-ul"></i> <span class="menu-text">Features</span> </a>
+                    </li>
+                    <li>
+                        <a href="running_the_project.html"> <i class="fa fa-tools"></i> <span class="menu-text">Running the project</span> </a>
+                    </li>
+                    <li>
+                        <a href="conect_to_engine.html"> <i class="fas fa-link"></i> <span class="menu-text">Connect to engine</span> </a>
+                    </li><li>
+                        <a href="change_colors.html"> <i class="fas fa-tint"></i> <span class="menu-text">Change colors</span> </a>
+                    </li><li>
+                        <a href="edit_onboarding.html"> <i class="fas fa-images"></i> <span class="menu-text">Edit onboarding</span> </a>
+                    </li><li>
+                        <a href="edit_splash_screen.html"> <i class="fa fa-list-ul"></i> <span class="menu-text">Edit splash screen</span> </a>
+                    </li><li>
+                        <a href="replace_icons.html"> <i class="fas fa-atom"></i> <span class="menu-text">Replace icons</span> </a>
+                    </li><li>
+                        <a href="change_icons.html"> <i class="fas fa-atom"></i> <span class="menu-text">Change icons</span> </a>
+                    </li>
+                    <li>
+                        <a href="change_name.html"> <i class="fas fa-file-signature"></i> <span class="menu-text">Change name</span> </a>
+                    </li><li>
+                        <a href="translation.html"> <i class="fas fa-language"></i> <span class="menu-text">Translation</span> </a>
+                    </li>
+                    <li class="sidebar-dropdown">
+                        <a href="#"> <i class="fa fa-arrow-alt-circle-up"></i> <span class="menu-text">Exporting</span> <span class="badge badge-pill badge-primary">2</span> </a>
+                        <div class="sidebar-submenu">
+                            <ul>
+                        <li> <a href="exporting_for_Aandroid.html"> Android <i class="fab fa-android"></i> <span class="menu-text"></span></a> </li>
+                        <li> <a href="exporting_for_ios.html">iOS <i class="fab fa-apple"></i> <span class="menu-text"></span> </a> </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="rtl_version.html"> <i class="fas fa-quote-right"></i> <span class="menu-text">RTL version</span> </a>
+                    </li>
+                    <li>
+                        <a href="firebase.html"> <i class="fas fa-fire"></i> <span class="menu-text">Using Firebase</span> </a>
+                    </li>
+                    <li>
+                        <a href="support_policies.html"> <i class="fas fa-headset"></i> <span class="menu-text">Support policies</span> </a>
+                    </li>
+                    <li>
+                        <a href="credit.html"> <i class="fab fa-cuttlefish"></i> <span class="menu-text">Credits</span> </a>
+                    </li>
+                   
+            </div>
+
+            <!-- sidebar-menu  -->
+            </div>
+        </nav>
+        <!-- page-content  -->
+        <main class="page-content">
+            <div id="overlay" class="overlay"></div>
+            <div class="container-fluid">
+                <div class="row d-flex align-items-center p-3 border-bottom">
+                    <div class="col-md-1">
+                        <a id="toggle-sidebar" class="btn rounded-0 p-3" href="#"> <i class="fas fa-bars"></i> </a>
+                    </div>
+                    <div class="col-md-8">
+                        <nav aria-label="breadcrumb" class="align-items-center">
+                            <a href="index.html" class="breadcrumb-back" title="Back"></a>
+                            <ol class="breadcrumb d-none d-lg-inline-flex m-0">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">RTL version</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="col-md-3 text-left"> <a href="https://sharebootstrap.com/docu-free-bootstrap-4-documentation-theme/" class="btn btn-sm btn-primary btn-rounded">Purchase item in Codecanyon</a> </div>
+                </div>
+                <div class="row p-lg-4">
+                    <article class="main-content col-md-12 pr-lg-5">
+                        <!-- title -Add bootstrap helpers for spacing -->
+                        <h1 class="mb-2 mt-3">RTL version</h1>
+                        <!--//title -->
+                        
+                        <p>We're glad to announce that React Native has been improved to support RTL layouts. This is now available in the&nbsp;<a href="https://github.com/facebook/react-native">react-native</a>&nbsp;master branch today, and will be available in the next RC:&nbsp;<a href="https://github.com/facebook/react-native/releases"><code>v0.33.0-rc</code></a>.</p>
+<p>This involved changing&nbsp;<a href="https://github.com/facebook/css-layout">css-layout</a>, the core layout engine used by RN, and RN core implementation, as well as specific OSS JS components to support RTL.</p>
+<p>To battle test the RTL support in production, the latest version of the&nbsp;<strong>Facebook Ads Manager</strong>&nbsp;app (the first cross-platform 100% RN app) is now available in Arabic and Hebrew with RTL layouts for both&nbsp;<a href="https://itunes.apple.com/app/id964397083">iOS</a>&nbsp;and&nbsp;<a href="https://play.google.com/store/apps/details?id=com.facebook.adsmanager">Android</a>. Here is how it looks like in those RTL languages:</p>
+<p><img src="https://reactnative.dev/blog/assets/rtl-ama-ios-arabic.png" width="280" /></p>
+<p><img src="https://reactnative.dev/blog/assets/rtl-ama-android-hebrew.png" width="280" /></p>
+<h2><a id="overview-changes-in-rn-for-rtl-support" class="anchor" aria-hidden="true"></a>Overview Changes in RN for RTL support</h2>
+<p><a href="https://github.com/facebook/css-layout">css-layout</a>&nbsp;already has a concept of&nbsp;<code>start</code>&nbsp;and&nbsp;<code>end</code>&nbsp;for the layout. In the Left-to-Right (LTR) layout,&nbsp;<code>start</code>&nbsp;means&nbsp;<code>left</code>, and&nbsp;<code>end</code>&nbsp;means&nbsp;<code>right</code>. But in RTL,&nbsp;<code>start</code>&nbsp;means&nbsp;<code>right</code>, and&nbsp;<code>end</code>&nbsp;means&nbsp;<code>left</code>. This means we can make RN depend on the&nbsp;<code>start</code>&nbsp;and&nbsp;<code>end</code>&nbsp;calculation to compute the correct layout, which includes&nbsp;<code>position</code>,&nbsp;<code>padding</code>, and&nbsp;<code>margin</code>.</p>
+<p>In addition,&nbsp;<a href="https://github.com/facebook/css-layout">css-layout</a>&nbsp;already makes each component's direction inherits from its parent. This means, we simply need to set the direction of the root component to RTL, and the entire app will flip.</p>
+<p>The diagram below describes the changes at high level:</p>
+<p><img src="https://reactnative.dev/blog/assets/rtl-rn-core-updates.png" alt="" /></p>
+<p>These include:</p>
+<ul>
+<li><a href="https://github.com/facebook/css-layout/commit/46c842c71a1232c3c78c4215275d104a389a9a0f">css-layout RTL support for absolute positioning</a></li>
+<li>mapping&nbsp;<code>left</code>&nbsp;and&nbsp;<code>right</code>&nbsp;to&nbsp;<code>start</code>&nbsp;and&nbsp;<code>end</code>&nbsp;in RN core implementation for shadow nodes</li>
+<li>and exposing a&nbsp;<a href="https://github.com/facebook/react-native/blob/f0fb228ec76ed49e6ed6d786d888e8113b8959a2/Libraries/Utilities/I18nManager.js">bridged utility module</a>&nbsp;to help control the RTL layout</li>
+</ul>
+<p>With this update, when you allow RTL layout for your app:</p>
+<ul>
+<li>every component layout will flip horizontally</li>
+<li>some gestures and animations will automatically have RTL layout, if you are using RTL-ready OSS components</li>
+<li>minimal additional effort may be needed to make your app fully RTL-ready</li>
+</ul>
+<h2><a id="making-an-app-rtl-ready" class="anchor" aria-hidden="true"></a>Making an App RTL-ready</h2>
+<ol>
+<li>
+<p>To support RTL, you should first add the RTL language bundles to your app.</p>
+<ul>
+<li>See the general guides from&nbsp;<a href="https://developer.apple.com/library/ios/documentation/MacOSX/Conceptual/BPInternational/LocalizingYourApp/LocalizingYourApp.html#//apple_ref/doc/uid/10000171i-CH5-SW1">iOS</a>&nbsp;and&nbsp;<a href="https://developer.android.com/training/basics/supporting-devices/languages.html">Android</a>.</li>
+</ul>
+</li>
+<li>
+<p>Allow RTL layout for your app by calling the&nbsp;<code>allowRTL()</code>&nbsp;function at the beginning of native code. We provided this utility to only apply to an RTL layout when your app is ready. Here is an example:</p>
+<p>iOS:</p>
+<pre><code class="hljs css language-objc"><span class="hljs-comment">// in AppDelegate.m</span>
+     [[RCTI18nUtil sharedInstance] allowRTL:<span class="hljs-literal">YES</span>];
+</code></pre>
+<p>Android:</p>
+<pre><code class="hljs css language-java"><span class="token comment">// in MainActivity.java</span>
+     <span class="token class-name">I18nUtil</span> sharedI18nUtilInstance <span class="token operator">=</span> <span class="token class-name">I18nUtil</span><span class="token punctuation">.</span><span class="token function">getInstance</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+     sharedI18nUtilInstance<span class="token punctuation">.</span><span class="token function">allowRTL</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+</li>
+<li>
+<p>For Android, you need add&nbsp;<code>android:supportsRtl="true"</code>&nbsp;to the&nbsp;<a href="https://developer.android.com/guide/topics/manifest/application-element.html"><code>&lt;application&gt;</code></a>&nbsp;element in&nbsp;<code>AndroidManifest.xml</code>&nbsp;file.</p>
+</li>
+</ol>
+<p>Now, when you recompile your app and change the device language to an RTL language (e.g. Arabic or Hebrew), your app layout should change to RTL automatically.</p>
+<h2><a id="writing-rtl-ready-components" class="anchor" aria-hidden="true"></a>Writing RTL-ready Components</h2>
+<p>In general, most components are already RTL-ready, for example:</p>
+<ul>
+<li>Left-to-Right Layout</li>
+</ul>
+<p><img src="https://reactnative.dev/blog/assets/rtl-demo-listitem-ltr.png" width="300" /></p>
+<ul>
+<li>Right-to-Left Layout</li>
+</ul>
+<p><img src="https://reactnative.dev/blog/assets/rtl-demo-listitem-rtl.png" width="300" /></p>
+<p>However, there are several cases to be aware of, for which you will need the&nbsp;<a href="https://github.com/facebook/react-native/blob/f0fb228ec76ed49e6ed6d786d888e8113b8959a2/Libraries/Utilities/I18nManager.js"><code>I18nManager</code></a>. In&nbsp;<a href="https://github.com/facebook/react-native/blob/f0fb228ec76ed49e6ed6d786d888e8113b8959a2/Libraries/Utilities/I18nManager.js"><code>I18nManager</code></a>, there is a constant&nbsp;<code>isRTL</code>&nbsp;to tell if layout of app is RTL or not, so that you can make the necessary changes according to the layout.</p>
+<h4><a id="icons-with-directional-meaning" class="anchor" aria-hidden="true"></a>Icons with Directional Meaning</h4>
+<p>If your component has icons or images, they will be displayed the same way in LTR and RTL layout, because RN will not flip your source image. Therefore, you should flip them according to the layout style.</p>
+<ul>
+<li>Left-to-Right Layout</li>
+</ul>
+<p><img src="https://reactnative.dev/blog/assets/rtl-demo-icon-ltr.png" width="300" /></p>
+<ul>
+<li>Right-to-Left Layout</li>
+</ul>
+<p><img src="https://reactnative.dev/blog/assets/rtl-demo-icon-rtl.png" width="300" /></p>
+<p>Here are two ways to flip the icon according to the direction:</p>
+<ul>
+<li>
+<p>Adding a&nbsp;<code>transform</code>&nbsp;style to the image component:</p>
+<pre><code class="hljs css language-jsx"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Image</span>
+  <span class="token attr-name">source</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token operator">...</span><span class="token punctuation">}</span></span>
+  <span class="token attr-name">style</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span>transform<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>scaleX<span class="token punctuation">:</span> I18nManager<span class="token punctuation">.</span>isRTL <span class="token operator">?</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">}</span></span>
+<span class="token punctuation">/&gt;</span></span>
+</code></pre>
+</li>
+<li>
+<p>Or, changing the image source according to the direction:</p>
+<pre><code class="hljs css language-jsx"><span class="token keyword">let</span> imageSource <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./back.png'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>I18nManager<span class="token punctuation">.</span>isRTL<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  imageSource <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./forward.png'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Image</span> <span class="token attr-name">source</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>imageSource<span class="token punctuation">}</span></span> <span class="token punctuation">/&gt;</span></span><span class="token punctuation">;</span>
+</code></pre>
+</li>
+</ul>
+<h4><a id="gestures-and-animations" class="anchor" aria-hidden="true"></a>Gestures and Animations</h4>
+<p>In Android and iOS development, when you change to RTL layout, the gestures and animations are the opposite of LTR layout. Currently, in RN, gestures and animations are not supported on RN core code level, but on components level. The good news is, some of these components already support RTL today, such as&nbsp;<a href="https://github.com/facebook/react-native/blob/38a6eec0db85a5204e85a9a92b4dee2db9641671/Libraries/Experimental/SwipeableRow/SwipeableRow.js"><code>SwipeableRow</code></a>&nbsp;and&nbsp;<a href="https://github.com/facebook/react-native/tree/master/Libraries/NavigationExperimental"><code>NavigationExperimental</code></a>. However, other components with gestures will need to support RTL manually.</p>
+<p>A good example to illustrate gesture RTL support is&nbsp;<a href="https://github.com/facebook/react-native/blob/38a6eec0db85a5204e85a9a92b4dee2db9641671/Libraries/Experimental/SwipeableRow/SwipeableRow.js"><code>SwipeableRow</code></a>.</p>
+<p align="center"><img src="https://reactnative.dev/blog/assets/rtl-demo-swipe-ltr.png" width="280" />&nbsp;<img src="https://reactnative.dev/blog/assets/rtl-demo-swipe-rtl.png" width="280" /></p>
+<h5><a id="gestures-example" class="anchor" aria-hidden="true"></a>Gestures Example</h5>
+<pre><code class="hljs css language-js"><span class="token comment">// SwipeableRow.js</span>
+<span class="token function">_isSwipingExcessivelyRightFromClosedPosition</span><span class="token punctuation">(</span>gestureState<span class="token punctuation">:</span> Object<span class="token punctuation">)</span><span class="token punctuation">:</span> boolean <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+  <span class="token keyword">const</span> gestureStateDx <span class="token operator">=</span> <span class="token constant">IS_RTL</span> <span class="token operator">?</span> <span class="token operator">-</span>gestureState<span class="token punctuation">.</span>dx <span class="token punctuation">:</span> gestureState<span class="token punctuation">.</span>dx<span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">_isSwipingRightFromClosed</span><span class="token punctuation">(</span>gestureState<span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span>
+    gestureStateDx <span class="token operator">&gt;</span> <span class="token constant">RIGHT_SWIPE_THRESHOLD</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre>
+<h5><a id="animation-example" class="anchor" aria-hidden="true"></a>Animation Example</h5>
+<pre><code class="hljs css language-js"><span class="token comment">// SwipeableRow.js</span>
+<span class="token function">_animateBounceBack</span><span class="token punctuation">(</span>duration<span class="token punctuation">:</span> number<span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+  <span class="token keyword">const</span> swipeBounceBackDistance <span class="token operator">=</span> <span class="token constant">IS_RTL</span> <span class="token operator">?</span>
+    <span class="token operator">-</span><span class="token constant">RIGHT_SWIPE_BOUNCE_BACK_DISTANCE</span> <span class="token punctuation">:</span>
+    <span class="token constant">RIGHT_SWIPE_BOUNCE_BACK_DISTANCE</span><span class="token punctuation">;</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">_animateTo</span><span class="token punctuation">(</span>
+    <span class="token operator">-</span>swipeBounceBackDistance<span class="token punctuation">,</span>
+    duration<span class="token punctuation">,</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>_animateToClosedPositionDuringBounce<span class="token punctuation">,</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre>
+<h2><a id="maintaining-your-rtl-ready-app" class="anchor" aria-hidden="true"></a>Maintaining Your RTL-ready App</h2>
+<p>Even after the initial RTL-compatible app release, you will likely need to iterate on new features. To improve development efficiency,&nbsp;<a href="https://github.com/facebook/react-native/blob/f0fb228ec76ed49e6ed6d786d888e8113b8959a2/Libraries/Utilities/I18nManager.js"><code>I18nManager</code></a>&nbsp;provides the&nbsp;<code>forceRTL()</code>&nbsp;function for faster RTL testing without changing the test device language. You might want to provide a simple switch for this in your app. Here's an example from the RTL example in the RNTester:</p>
+<p align="center"><img src="https://reactnative.dev/blog/assets/rtl-demo-forcertl.png" width="300" /></p>
+<pre><code class="hljs css language-js"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">RNTesterBlock</span> <span class="token attr-name">title</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token string">'Quickly Test RTL Layout'</span><span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">View</span> <span class="token attr-name">style</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>flexDirectionRow<span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Text</span> <span class="token attr-name">style</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>switchRowTextView<span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">forceRTL</span><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Text</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">View</span> <span class="token attr-name">style</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>switchRowSwitchView<span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Switch</span>
+        <span class="token attr-name">onValueChange</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>_onDirectionChange<span class="token punctuation">}</span></span>
+        <span class="token attr-name">style</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>rightAlignStyle<span class="token punctuation">}</span></span>
+        <span class="token attr-name">value</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>isRTL<span class="token punctuation">}</span></span>
+      <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">View</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">View</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">RNTesterBlock</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">;</span>
+
+<span class="token function-variable function">_onDirectionChange</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  I18nManager<span class="token punctuation">.</span><span class="token function">forceRTL</span><span class="token punctuation">(</span><span class="token operator">!</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>isRTL<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>isRTL<span class="token punctuation">:</span> <span class="token operator">!</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>isRTL<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  Alert<span class="token punctuation">.</span><span class="token function">alert</span><span class="token punctuation">(</span>
+    <span class="token string">'Reload this page'</span><span class="token punctuation">,</span>
+    <span class="token string">'Please reload this page to change the UI direction! '</span> <span class="token operator">+</span>
+      <span class="token string">'All examples in this app will be affected. '</span> <span class="token operator">+</span>
+      <span class="token string">'Check them out to see what they look like in RTL layout.'</span><span class="token punctuation">,</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+<p>When working on a new feature, you can easily toggle this button and reload the app to see RTL layout. The benefit is you won't need to change the language setting to test, however some text alignment won't change, as explained in the next section. Therefore, it's always a good idea to test your app in the RTL language before launching.</p>
+<h2><a id="limitations-and-future-plan" class="anchor" aria-hidden="true"></a>Limitations and Future Plan</h2>
+<p>The RTL support should cover most of the UX in your app; however, there are some limitations for now:</p>
+<ul>
+<li>Text alignment behaviors differ in Android and iOS
+<ul>
+<li>In iOS, the default text alignment depends on the active language bundle, they are consistently on one side. In Android, the default text alignment depends on the language of the text content, i.e. English will be left-aligned and Arabic will be right-aligned.</li>
+<li>In theory, this should be made consistent across platform, but some people may prefer one behavior to another when using an app. More user experience research may be needed to find out the best practice for text alignment.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<p>There is no "true" left/right</p>
+<p>As discussed before, we map the&nbsp;<code>left</code>/<code>right</code>&nbsp;styles from the JS side to&nbsp;<code>start</code>/<code>end</code>, all&nbsp;<code>left</code>&nbsp;in code for RTL layout becomes "right" on screen, and&nbsp;<code>right</code>&nbsp;in code becomes "left" on screen. This is convenient because you don't need to change your product code too much, but it means there is no way to specify "true left" or "true right" in the code. In the future, allowing a component to control its direction regardless of the language may be necessary.</p>
+</li>
+<li>
+<p>Make RTL support for gestures and animations more developer friendly</p>
+<p>Currently, there is still some programming effort required to make gestures and animations RTL compatible. In the future, it would be ideal to find a way to make gestures and animations RTL support more developer friendly.</p>
+</li>
+</ul>
+<h2><a id="try-it-out" class="anchor" aria-hidden="true"></a>Try it Out!</h2>
+<p>Check out the&nbsp;<a href="https://github.com/facebook/react-native/blob/master/RNTester/js/RTLExample.js"><code>RTLExample</code></a>&nbsp;in the&nbsp;<code>RNTester</code>&nbsp;to understand more about RTL support, and let us know how it works for you!</p>
+                                            
+                        </div>
+                        <!-- Sep -->
+                        <hr class="my-5">
+                    </article>
+            
+                </div>
+            </div>
+        </main>
+        <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+    <!-- using online scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+    <script src="//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/prism.min.js"></script>
+    <!-- using local scripts -->
+    <!-- <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script> -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

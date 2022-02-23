@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free bootstrap documentation template">
+    <title>Proacademy Documentation</title>
+    <!-- using online links -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css">
+    <!-- using local links -->
+    <!-- <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sidebar-themes.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> </head>
+
+<body>
+    <div class="page-wrapper toggled light-theme">
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <!-- sidebar-brand  -->
+                <div class="sidebar-item sidebar-brand text-white font-weight-bold">Proacademy</div>
+                <!-- sidebar-header  -->
+                <!-- sidebar-search  -->
+                <div class="sidebar-item sidebar-search">
+                    <div>
+                        <div class="input-group">
+                            <input type="text" class="form-control search-menu" placeholder="Search...">
+                            <div class="input-group-append"> <span class="input-group-text">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </span> </div>
+                        </div>
+                    </div>
+                </div>
+               <!-- sidebar-menu  -->
+               <div class=" sidebar-item sidebar-menu">
+                <ul>
+                    <li class="header-menu"> <span>Menu</span> </li>
+                    <li>
+                        <a href="index.html"> <i class="fa fa-play"></i> <span class="menu-text">introduction</span> </a>
+                    </li>
+                    <li>
+                        <a href="features.html"> <i class="fa fa-list-ul"></i> <span class="menu-text">Features</span> </a>
+                    </li>
+                    <li>
+                        <a href="running_the_project.html"> <i class="fa fa-tools"></i> <span class="menu-text">Running the project</span> </a>
+                    </li>
+                    <li>
+                        <a href="conect_to_engine.html"> <i class="fas fa-link"></i> <span class="menu-text">Connect to engine</span> </a>
+                    </li><li>
+                        <a href="change_colors.html"> <i class="fas fa-tint"></i> <span class="menu-text">Change colors</span> </a>
+                    </li><li>
+                        <a href="edit_onboarding.html"> <i class="fas fa-images"></i> <span class="menu-text">Edit onboarding</span> </a>
+                    </li><li>
+                        <a href="edit_splash_screen.html"> <i class="fa fa-list-ul"></i> <span class="menu-text">Edit splash screen</span> </a>
+                    </li><li>
+                        <a href="replace_icons.html"> <i class="fas fa-atom"></i> <span class="menu-text">Replace icons</span> </a>
+                    </li><li>
+                        <a href="change_icons.html"> <i class="fas fa-atom"></i> <span class="menu-text">Change icons</span> </a>
+                    </li>
+                    <li>
+                        <a href="change_name.html"> <i class="fas fa-file-signature"></i> <span class="menu-text">Change name</span> </a>
+                    </li><li>
+                        <a href="translation.html"> <i class="fas fa-language"></i> <span class="menu-text">Translation</span> </a>
+                    </li>
+                    <li class="sidebar-dropdown">
+                        <a href="#"> <i class="fa fa-arrow-alt-circle-up"></i> <span class="menu-text">Exporting</span> <span class="badge badge-pill badge-primary">2</span> </a>
+                        <div class="sidebar-submenu">
+                            <ul>
+                        <li> <a href="exporting_for_Aandroid.html"> Android <i class="fab fa-android"></i> <span class="menu-text"></span></a> </li>
+                        <li> <a href="exporting_for_ios.html">iOS <i class="fab fa-apple"></i> <span class="menu-text"></span> </a> </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="rtl_version.html"> <i class="fas fa-quote-right"></i> <span class="menu-text">RTL version</span> </a>
+                    </li>
+                    <li>
+                        <a href="firebase.html"> <i class="fas fa-fire"></i> <span class="menu-text">Using Firebase</span> </a>
+                    </li>
+                    <li>
+                        <a href="support_policies.html"> <i class="fas fa-headset"></i> <span class="menu-text">Support policies</span> </a>
+                    </li>
+                    <li>
+                        <a href="credit.html"> <i class="fab fa-cuttlefish"></i> <span class="menu-text">Credits</span> </a>
+                    </li>
+                   
+            </div>
+
+            <!-- sidebar-menu  -->
+            </div>
+        </nav>
+        <!-- page-content  -->
+        <main class="page-content">
+            <div id="overlay" class="overlay"></div>
+            <div class="container-fluid">
+                <div class="row d-flex align-items-center p-3 border-bottom">
+                    <div class="col-md-1">
+                        <a id="toggle-sidebar" class="btn rounded-0 p-3" href="#"> <i class="fas fa-bars"></i> </a>
+                    </div>
+                    <div class="col-md-8">
+                        <nav aria-label="breadcrumb" class="align-items-center">
+                            <a href="index.html" class="breadcrumb-back" title="Back"></a>
+                            <ol class="breadcrumb d-none d-lg-inline-flex m-0">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Exporting for android</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="col-md-3 text-left"> <a href="https://sharebootstrap.com/docu-free-bootstrap-4-documentation-theme/" class="btn btn-sm btn-primary btn-rounded">Purchase item in Codecanyon</a> </div>
+                </div>
+                <div class="row p-lg-4">
+                    <article class="main-content col-md-12 pr-lg-5">
+                        <!-- title -Add bootstrap helpers for spacing -->
+                        <h1 class="mb-2 mt-3">Exporting for Android</h1>
+                        <!--//title -->
+                        
+                        <p>We provide videos for exporting the Android version so you can send an email with the title &ldquo;Video tutorials&rdquo; to&nbsp;<a href="mailto:prodevelopersteam@gmail.com">prodevelopersteam@gmail.com</a>&nbsp;including your purchase code to send it to you.</p>
+<p>Also if you purchased 12 months support license (Extended support), we can export APK files for you after you made your favorite changes.</p>
+
+<header class="postHeader">
+    <h1 id="__docusaurus" class="postHeaderTitle">Publishing to Google Play Store</h1>
+    </header>
+    <article>
+    <div>
+    <p>Android requires that all apps be digitally signed with a certificate before they can be installed. In order to distribute your Android application via&nbsp;<a href="https://play.google.com/store">Google Play store</a>&nbsp;it needs to be signed with a release key that then needs to be used for all future updates. Since 2017 it is possible for Google Play to manage signing releases automatically thanks to&nbsp;<a href="https://developer.android.com/studio/publish/app-signing#app-signing-google-play">App Signing by Google Play</a>&nbsp;functionality. However, before your application binary is uploaded to Google Play it needs to be signed with an upload key. The&nbsp;<a href="https://developer.android.com/tools/publishing/app-signing.html">Signing Your Applications</a>&nbsp;page on Android Developers documentation describes the topic in detail. This guide covers the process in brief, as well as lists the steps required to package the JavaScript bundle.</p>
+    <h3><a id="generating-an-upload-key" class="anchor" aria-hidden="true"></a>Generating an upload key</h3>
+    <p>You can generate a private signing key using&nbsp;<code>keytool</code>. On Windows&nbsp;<code>keytool</code>&nbsp;must be run from&nbsp;<code>C:\Program Files\Java\jdkx.x.x_x\bin</code>.</p>
+    <pre><code class="hljs">$ keytool -genkeypair -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+    </code></pre>
+    <p>This command prompts you for passwords for the keystore and key and for the Distinguished Name fields for your key. It then generates the keystore as a file called&nbsp;<code>my-upload-key.keystore</code>.</p>
+    <p>The keystore contains a single key, valid for 10000 days. The alias is a name that you will use later when signing your app, so remember to take note of the alias.</p>
+    <p>On Mac, if you're not sure where your JDK bin folder is, then perform the following command to find it:</p>
+    <pre><code class="hljs">$ /usr/libexec/java_home
+    </code></pre>
+    <p>It will output the directory of the JDK, which will look something like this:</p>
+    <pre><code class="hljs">/Library/Java/JavaVirtualMachines/jdkX.X.X_XXX.jdk/Contents/Home
+    </code></pre>
+    <p>Navigate to that directory by using the command&nbsp;<code>$ cd /your/jdk/path</code>&nbsp;and use the keytool command with sudo permission as shown below.</p>
+    <pre><code class="hljs">$ sudo keytool -genkey -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+    </code></pre>
+    <p><em>Note: Remember to keep the keystore file private. In case you've lost upload key or it's been compromised you should&nbsp;<a href="https://support.google.com/googleplay/android-developer/answer/7384423#reset">follow these instructions</a>.</em></p>
+    <h3><a id="setting-up-gradle-variables" class="anchor" aria-hidden="true"></a>Setting up Gradle variables</h3>
+    <ol>
+    <li>Place the&nbsp;<code>my-upload-key.keystore</code>&nbsp;file under the&nbsp;<code>android/app</code>&nbsp;directory in your project folder.</li>
+    <li>Edit the file&nbsp;<code>~/.gradle/gradle.properties</code>&nbsp;or&nbsp;<code>android/gradle.properties</code>, and add the following (replace&nbsp;<code>*****</code>&nbsp;with the correct keystore password, alias and key password),</li>
+    </ol>
+    <pre><code class="hljs"><span class="hljs-attr">MYAPP_UPLOAD_STORE_FILE</span>=my-upload-key.keystore
+    <span class="hljs-attr">MYAPP_UPLOAD_KEY_ALIAS</span>=my-key-alias
+    <span class="hljs-attr">MYAPP_UPLOAD_STORE_PASSWORD</span>=*****
+    <span class="hljs-attr">MYAPP_UPLOAD_KEY_PASSWORD</span>=*****
+    </code></pre>
+    <p>These are going to be global Gradle variables, which we can later use in our Gradle config to sign our app.</p>
+    <p><em>Note about security: If you are not keen on storing your passwords in plaintext, and you are running OSX, you can also&nbsp;<a href="https://pilloxa.gitlab.io/posts/safer-passwords-in-gradle/">store your credentials in the Keychain Access app</a>. Then you can skip the two last rows in&nbsp;<code>~/.gradle/gradle.properties</code>.</em></p>
+    <h3><a id="adding-signing-config-to-your-apps-gradle-config" class="anchor" aria-hidden="true"></a>Adding signing config to your app's Gradle config</h3>
+    <p>The last configuration step that needs to be done is to setup release builds to be signed using upload key. Edit the file&nbsp;<code>android/app/build.gradle</code>&nbsp;in your project folder, and add the signing config,</p>
+    <pre><code class="hljs css language-gradle">...
+    android {
+        ...
+        defaultConfig { ... }
+        signingConfigs {
+            release {
+                <span class="hljs-keyword">if</span> (<span class="hljs-keyword">project</span>.hasProperty(<span class="hljs-string">'MYAPP_UPLOAD_STORE_FILE'</span>)) {
+                    storeFile <span class="hljs-keyword">file</span>(MYAPP_UPLOAD_STORE_FILE)
+                    storePassword MYAPP_UPLOAD_STORE_PASSWORD
+                    keyAlias MYAPP_UPLOAD_KEY_ALIAS
+                    keyPassword MYAPP_UPLOAD_KEY_PASSWORD
+                }
+            }
+        }
+        buildTypes {
+            release {
+                ...
+                signingConfig signingConfigs.release
+            }
+        }
+    }
+    ...
+    </code></pre>
+    <h3><a id="generating-the-release-apk" class="anchor" aria-hidden="true"></a>Generating the release APK</h3>
+    <p>Run the following in a terminal:</p>
+    <pre><code class="hljs css language-sh">$ <span class="token builtin class-name">cd</span> android
+    $ ./gradlew bundleRelease
+    </code></pre>
+    <p>Gradle's&nbsp;<code>bundleRelease</code>&nbsp;will bundle all the JavaScript needed to run your app into the AAB (<a href="https://developer.android.com/guide/app-bundle">Android App Bundle</a>). If you need to change the way the JavaScript bundle and/or drawable resources are bundled (e.g. if you changed the default file/folder names or the general structure of the project), have a look at&nbsp;<code>android/app/build.gradle</code>&nbsp;to see how you can update it to reflect these changes.</p>
+    <blockquote>
+    <p>Note: Make sure gradle.properties does not include&nbsp;<em>org.gradle.configureondemand=true</em>&nbsp;as that will make the release build skip bundling JS and assets into the app binary.</p>
+    </blockquote>
+    <p>The generated AAB can be found under&nbsp;<code>android/app/build/outputs/bundle/release/app.aab</code>, and is ready to be uploaded to Google Play.</p>
+    <p><em>Note: In order for Google Play to accept AAB format the App Signing by Google Play needs to be configured for your application on the Google Play Console. If you are updating an existing app that doesn't use App Signing by Google Play, please check our&nbsp;<a href="https://reactnative.dev/docs/signed-apk-android#migrating-old-android-react-native-apps-to-use-app-signing-by-google-play">migration section</a>&nbsp;to learn how to perform that configuration change.</em></p>
+    <h3><a id="testing-the-release-build-of-your-app" class="anchor" aria-hidden="true"></a>Testing the release build of your app</h3>
+    <p>Before uploading the release build to the Play Store, make sure you test it thoroughly. First uninstall any previous version of the app you already have installed. Install it on the device using:</p>
+    <pre><code class="hljs css language-sh">$ npx react-native run-android --variant<span class="token operator">=</span>release
+    </code></pre>
+    <p>Note that&nbsp;<code>--variant=release</code>&nbsp;is only available if you've set up signing as described above.</p>
+    <p>You can kill any running packager instances, since all your framework and JavaScript code is bundled in the APK's assets.</p>
+    <h3><a id="publishing-to-other-stores" class="anchor" aria-hidden="true"></a>Publishing to other stores</h3>
+    <p>By default, the generated APK has the native code for both x86 and ARMv7a CPU architectures. This makes it easier to share APKs that run on almost all Android devices. However, this has the downside that there will be some unused native code on any device, leading to unnecessarily bigger APKs.</p>
+    <p>You can create an APK for each CPU by changing the following line in android/app/build.gradle:</p>
+    <pre><code class="hljs css language-diff"><span class="hljs-deletion">- ndk {</span>
+    <span class="hljs-deletion">-   abiFilters "armeabi-v7a", "x86"</span>
+    <span class="hljs-deletion">- }</span>
+    <span class="hljs-deletion">- def enableSeparateBuildPerCPUArchitecture = false</span>
+    <span class="hljs-addition">+ def enableSeparateBuildPerCPUArchitecture = true</span>
+    </code></pre>
+    <p>Upload both these files to markets which support device targeting, such as&nbsp;<a href="https://developer.android.com/google/play/publishing/multiple-apks.html">Google Play</a>&nbsp;and&nbsp;<a href="https://developer.amazon.com/docs/app-submission/device-filtering-and-compatibility.html">Amazon AppStore</a>, and the users will automatically get the appropriate APK. If you want to upload to other markets, such as&nbsp;<a href="https://www.apkfiles.com/">APKFiles</a>, which do not support multiple APKs for a single app, change the following line as well to create the default universal APK with binaries for both CPUs.</p>
+    <pre><code class="hljs css language-diff"><span class="hljs-deletion">- universalApk false  // If true, also generate a universal APK</span>
+    <span class="hljs-addition">+ universalApk true  // If true, also generate a universal APK</span>
+    </code></pre>
+    <h3><a id="enabling-proguard-to-reduce-the-size-of-the-apk-optional" class="anchor" aria-hidden="true"></a>Enabling Proguard to reduce the size of the APK (optional)</h3>
+    <p>Proguard is a tool that can slightly reduce the size of the APK. It does this by stripping parts of the React Native Java bytecode (and its dependencies) that your app is not using.</p>
+    <p><em><strong>IMPORTANT</strong>: Make sure to thoroughly test your app if you've enabled Proguard. Proguard often requires configuration specific to each native library you're using. See&nbsp;<code>app/proguard-rules.pro</code>.</em></p>
+    <p>To enable Proguard, edit&nbsp;<code>android/app/build.gradle</code>:</p>
+    <pre><code class="hljs css language-gradle"><span class="hljs-comment">/**
+     * Run Proguard to shrink the Java bytecode in release builds.
+     */</span>
+    <span class="hljs-keyword">def</span> enableProguardInReleaseBuilds = <span class="hljs-keyword">true</span>
+    </code></pre>
+    <h3><a id="migrating-old-android-react-native-apps-to-use-app-signing-by-google-play" class="anchor" aria-hidden="true"></a>Migrating old Android React Native apps to use App Signing by Google Play</h3>
+    <p>If you are migrating from previous version of React Native chances are your app does not use App Signing by Google Play feature. We recommend you enable that in order to take advantage from things like automatic app splitting. In order to migrate from the old way of signing you need to start by&nbsp;<a href="https://reactnative.dev/docs/signed-apk-android#generating-an-upload-key">generating new upload key</a>&nbsp;and then replacing release signing config in&nbsp;<code>android/app/build.gradle</code>&nbsp;to use the upload key instead of the release one (see section about&nbsp;<a href="https://reactnative.dev/docs/signed-apk-android#adding-signing-config-to-your-app-s-gradle-config">adding signing config to gradle</a>). Once that's done you should follow the&nbsp;<a href="https://support.google.com/googleplay/android-developer/answer/7384423">instructions from Google Play Help website</a>&nbsp;in order to send your original release key to Google Play.</p>
+    </div>
+    </article>
+                                            
+                        </div>
+                        <!-- Sep -->
+                        <hr class="my-5">
+                    </article>
+            
+                </div>
+            </div>
+        </main>
+        <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+    <!-- using online scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+    <script src="//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/prism.min.js"></script>
+    <!-- using local scripts -->
+    <!-- <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script> -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

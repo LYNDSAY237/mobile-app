@@ -1,0 +1,31 @@
+Proacademy Mobile app V1.1
+----------------------------
+-New: Showing requested courses and coming soon courses followers.
+-New: Showing requested courses and coming soon courses description.
+-Solved: Error in becoming vendor page.
+-Solved: Courses quantity on category page.
+-Solved: Search placeholder bad view.
+-Solved: Unlimited scroll in the information tab.
+-Solved: Incorrect information in the user dashboard.
+-Solved: Missing support attachments when user submit a ticket.
+-Solved: Comming soon courses bad view.
+-Solved: Registration issue for new users.
+-Solved: Forget password force close problem.
+-Solved: Playing videos for owner instructor.
+-Solved: Error in sending support messages.
+-Solved: Error in displaying comments.
+
+Proacademy Mobile app V2.0
+----------------------------
+-New: Live classes support.
+-New: Quiz & certificate support.
+-New: Support communications on the mobile app.
+-New: Descriptions on future courses and requests page.
+-New: Filters in category page added.
+-New: Live class badge added.
+-New: User badges description added.
+-New: Instructor profile in article page added.
+-New: Build version and gradle updated.
+-Solved: Login and signup issue.
+-Solved: Dashboard information refresh.
+-Solved: Course time display issue.
